@@ -65,3 +65,15 @@ After execution, report:
 - Uses 5+ years of daily data from Yahoo Finance.
 - Designed to avoid overfitting.
 - Includes walk-forward validation and robustness scoring.
+
+## Results Summary
+
+| Metric | Value |
+|---|---|
+| Stock Symbol | AAPL |
+| Backtest Period | 2018–2025 |
+| Starting Capital | $100,000 |
+| Percentage Return on Capital | 91.67% |
+| Maximum Drawdown | 10.49% |
+| Walk-Forward Analysis Score | 71.00 |
+| Robustness Score | 80.70 |

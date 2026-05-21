@@ -63,7 +63,7 @@ for train_start, train_end, test_start, test_end in windows:
         train_final
     )
 
-    # Test backtest
+    
     cerebro_test = bt.Cerebro()
     cerebro_test.addstrategy(EMARSIATRStrategy)
     cerebro_test.adddata(test_feed)
